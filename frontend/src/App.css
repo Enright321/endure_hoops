@@ -61,11 +61,13 @@ img {
   transform: scale(1.03);
   cursor: pointer;
 }
+
 .hero-img {
   width: 100%;
   height: 100%;
   border: none;
 }
+
 .flex {
   display: flex;
   flex-direction: row;
@@ -233,7 +235,7 @@ div.row {
     align-items: center;
   }
   .hero-card {
-    width: 100%;
+    width: 60%;
   }
   .testimonial h1 {
     padding: 2rem 0;
@@ -241,5 +243,14 @@ div.row {
   .hero h1,
   .testimonial h1 {
     font-size: 1.5rem;
+  }
+  .testimonial-card:hover {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 425px) {
+  .hero-card {
+    width: 80%;
   }
 }
