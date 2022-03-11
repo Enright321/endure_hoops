@@ -35,7 +35,7 @@ const HomeScreen = () => {
                 <div className='col'>
                   <img
                     className='hero-img'
-                    src='../images/hero3.jpg'
+                    src='../images/hero2.JPG'
                     alt='basketball camp'
                   />
                   <h5 className='text-center py-2'>Camp Registration</h5>
