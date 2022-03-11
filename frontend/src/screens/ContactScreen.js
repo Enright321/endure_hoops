@@ -42,7 +42,7 @@ const ContactScreen = () => {
                 <a
                   style={{ marginTop: '1rem' }}
                   className='btn'
-                  href='https://twitter.com/EndureHoops'
+                  href='https://twitter.com/endure_hoops'
                   target='_blank'
                   rel='noreferrer'
                 >
