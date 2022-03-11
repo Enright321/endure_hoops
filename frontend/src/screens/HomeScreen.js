@@ -20,7 +20,7 @@ const HomeScreen = () => {
                   <img
                     className='hero-img'
                     src='../images/hero1.JPG'
-                    alt='basketball'
+                    alt='Contact'
                   />
                   <h5 className='text-center py-2'>Contact Me</h5>
                 </div>
@@ -36,7 +36,7 @@ const HomeScreen = () => {
                   <img
                     className='hero-img'
                     src='../images/hero2.jpg'
-                    alt='basketball'
+                    alt='basketball camp'
                   />
                   <h5 className='text-center py-2'>Camp Registration</h5>
                 </div>
@@ -47,7 +47,7 @@ const HomeScreen = () => {
                 <img
                   className='hero-img'
                   src='../images/hero3.jpg'
-                  alt='basketball'
+                  alt='basketball store'
                 />
                 <h5 className='text-center py-2'>Store</h5>
               </div>

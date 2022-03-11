@@ -32,7 +32,7 @@ const ContactScreen = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  VISIT INSTAGRAM
+                  Visit Instagram
                 </a>
               </div>
             </div>
@@ -46,7 +46,7 @@ const ContactScreen = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  VISIT TWITTER
+                  Visit Twitter
                 </a>
               </div>
             </div>
