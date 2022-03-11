@@ -1,6 +1,6 @@
-const path = require('path');
-const dotenv = require('dotenv');
-const express = require('express');
+import path from 'path';
+import dotenv from 'dotenv';
+import express from 'express';
 dotenv.config();
 const app = express();
 // const __dirname = path.resolve();
