@@ -35,7 +35,7 @@ const HomeScreen = () => {
                 <div className='col'>
                   <img
                     className='hero-img'
-                    src='../images/hero22.JPG'
+                    src='../images/hero2.jpg'
                     alt='basketball'
                   />
                   <h5 className='text-center py-2'>Camp Registration</h5>
@@ -46,7 +46,7 @@ const HomeScreen = () => {
               <div className='col'>
                 <img
                   className='hero-img'
-                  src='../images/hero3.JPG'
+                  src='../images/hero3.jpg'
                   alt='basketball'
                 />
                 <h5 className='text-center py-2'>Store</h5>
