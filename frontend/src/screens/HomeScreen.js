@@ -26,22 +26,22 @@ const HomeScreen = () => {
                 </div>
               </div>
             </Link>
-            <div className='hero-card'>
-              <div className='col'>
-                <img
-                  className='hero-img'
-                  src='../images/hero2.jpg'
-                  alt='basketball camp'
-                />
-                <a
-                  href='https://docs.google.com/forms/d/1olwSi6Fj4oi3h7vDLNnDUIpYVjB41cjpllR5xUUh4qk/edit'
-                  target='_blank'
-                  rel='noreferrer'
-                >
+            <a
+              href='https://docs.google.com/forms/d/1olwSi6Fj4oi3h7vDLNnDUIpYVjB41cjpllR5xUUh4qk/edit'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div className='hero-card'>
+                <div className='col'>
+                  <img
+                    className='hero-img'
+                    src='../images/hero3.jpg'
+                    alt='basketball camp'
+                  />
                   <h5 className='text-center py-2'>Camp Registration</h5>
-                </a>
+                </div>
               </div>
-            </div>
+            </a>
             <div className='hero-card' onClick={() => setButtonPopup(true)}>
               <div className='col'>
                 <img
