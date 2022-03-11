@@ -31,10 +31,10 @@ const Header = () => {
                 <i className='fa-solid fa-store'></i> Store
               </Nav.Link>
               <Nav.Link href='#' onClick={() => setButtonPopup(true)}>
-                <i class='fa-solid fa-cart-shopping'></i> Cart
+                <i className='fa-solid fa-cart-shopping'></i> Cart
               </Nav.Link>
               <Nav.Link href='#' onClick={() => setButtonPopup(true)}>
-                <i class='fa-solid fa-camera'></i> Gallery
+                <i className='fa-solid fa-camera'></i> Gallery
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

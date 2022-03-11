@@ -14,8 +14,8 @@ const HomeScreen = () => {
             <h6>Gallery, store, and more coming soon...</h6>
           </PopupMessage>
           <div className='flex'>
-            <Link to='/contact'>
-              <div className='hero-card'>
+            <div className='hero-card'>
+              <Link to='/contact'>
                 <div className='col'>
                   <img
                     className='hero-img'
@@ -24,14 +24,14 @@ const HomeScreen = () => {
                   />
                   <h5 className='text-center py-2'>Contact Me</h5>
                 </div>
-              </div>
-            </Link>
-            <a
-              href='https://docs.google.com/forms/d/1olwSi6Fj4oi3h7vDLNnDUIpYVjB41cjpllR5xUUh4qk/edit'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div className='hero-card'>
+              </Link>
+            </div>
+            <div className='hero-card'>
+              <a
+                href='https://docs.google.com/forms/d/1olwSi6Fj4oi3h7vDLNnDUIpYVjB41cjpllR5xUUh4qk/edit'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <div className='col'>
                   <img
                     className='hero-img'
@@ -40,8 +40,8 @@ const HomeScreen = () => {
                   />
                   <h5 className='text-center py-2'>Camp Registration</h5>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
             <div className='hero-card' onClick={() => setButtonPopup(true)}>
               <div className='col'>
                 <img
@@ -59,8 +59,8 @@ const HomeScreen = () => {
         <Container>
           <h1 className='text-center'>Testimonials</h1>
           <div className='wrapper'>
-            <div class='testimonial-cards'>
-              <div class='testimonial-card'>
+            <div className='testimonial-cards'>
+              <div className='testimonial-card'>
                 <img src='../images/blossom.jpg' alt='Jay Blossom' />
                 <p>
                   "Matt Enright is one of the hardest working and most
@@ -75,7 +75,7 @@ const HomeScreen = () => {
                 <h4>Jay Blossom</h4>
                 <h4>Former Coach of the Webster Groves Statesman</h4>
               </div>
-              <div class='testimonial-card'>
+              <div className='testimonial-card'>
                 <img src='../images/drew.jpg' alt='Drew Hanlen' />
                 <p>
                   "I've watched Matt relentlessly work on his game since he was
