@@ -73,7 +73,7 @@ const HomeScreen = () => {
                   wants to grow their game."
                 </p>
                 <h4>Jay Blossom</h4>
-                <h4>Former Coach of the Webster Groves Statesman</h4>
+                <h4>Former Coach of the Webster Groves Statesmen</h4>
               </div>
               <div className='testimonial-card'>
                 <img src='../images/drew.jpg' alt='Drew Hanlen' />
