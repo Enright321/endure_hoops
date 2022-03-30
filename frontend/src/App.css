@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
 :root {
-  --primary: #183c5c;
+  --primary: #102e53;
   --secondary: #8b9dad;
 }
 * {
@@ -9,11 +9,18 @@
 }
 a {
   text-decoration: none;
-  color: black;
+  color: var(--primary);
 }
 a:hover {
   text-decoration: none;
   color: black;
+}
+.link {
+  color: var(--primary) !important;
+  transition: 1s;
+}
+.link:hover {
+  opacity: 0.8;
 }
 h1 {
   font-family: 'Spartan', sans-serif;
@@ -36,11 +43,13 @@ img {
 }
 .btn {
   padding: 0.5rem 1.5rem;
-  background: var(--secondary);
+  background: var(--primary);
+  color: white;
   transition: 1s;
 }
 .btn:hover {
-  transform: scale(1.02);
+  background: var(--secondary);
+  color: black;
 }
 .hero {
   background-image: url('./images/wave.svg');
@@ -212,6 +221,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid var(--primary);
 }
 div.row {
   margin: 0;
