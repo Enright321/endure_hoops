@@ -24,7 +24,6 @@ const ContactScreen = () => {
           <div className='row'>
             <div className='card'>
               <div className='card-contents'>
-                <h2 className='text-center'>Instagram</h2>
                 <a
                   style={{ marginTop: '1rem' }}
                   className='btn'
@@ -38,7 +37,6 @@ const ContactScreen = () => {
             </div>
             <div className='card'>
               <div className='card-contents'>
-                <h2 className='text-center'>Twitter</h2>
                 <a
                   style={{ marginTop: '1rem' }}
                   className='btn'
