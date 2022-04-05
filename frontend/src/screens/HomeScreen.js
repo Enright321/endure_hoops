@@ -57,7 +57,7 @@ const HomeScreen = () => {
       </div>
       <section className='testimonial'>
         <Container>
-          <h1 className='text-center'>Testimonials</h1>
+          <h2 className='text-center'>Testimonials</h2>
           <div className='wrapper'>
             <div className='testimonial-cards'>
               <div className='testimonial-card'>
@@ -91,6 +91,21 @@ const HomeScreen = () => {
             </div>
           </div>
         </Container>
+      </section>
+      <section id='sponsors'>
+        <h2 className='text-center'>Sponsors</h2>
+        <div className='flex'>
+          <img
+            class='sponsor-img'
+            src='../images/sponsor1.png'
+            alt='State Farm Sponsor'
+          />
+          <img
+            class='sponsor-img'
+            src='../images/sponsor2.png'
+            alt='Llewelyns Sponsor'
+          />
+        </div>
       </section>
     </>
   );

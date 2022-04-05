@@ -2,6 +2,7 @@
 :root {
   --primary: #102e53;
   --secondary: #8b9dad;
+  --dark: hsl(230 35% 7% / 0.15);
 }
 * {
   margin: 0;
@@ -25,6 +26,11 @@ a:hover {
 h1 {
   font-family: 'Spartan', sans-serif;
   text-align: center;
+}
+h2 {
+  font-family: 'Spartan', sans-serif;
+  font-size: 45px;
+  padding-bottom: 2rem;
 }
 .container {
   max-width: 1100px;
@@ -118,9 +124,10 @@ img {
   font-family: 'raleway', sans-serif;
   color: #333;
 }
-.testimonial h1 {
-  padding-bottom: 3rem;
+.testimonial h2 {
+  margin-bottom: 2rem;
 }
+
 .wrapper h1 {
   font-size: 36px;
   font-weight: 500;
@@ -132,7 +139,7 @@ img {
   font-size: 42px;
   text-align: center;
   font-weight: 300;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 .testimonial-cards {
   display: flex;
@@ -226,6 +233,20 @@ footer {
 div.row {
   margin: 0;
 }
+
+/* sponsor section */
+.sponsor-img {
+  height: 170px;
+  width: 155px;
+  padding: 1rem;
+}
+#sponsors h2 {
+  padding: 2rem 0;
+}
+#sponsors > div {
+  background: var(--dark);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .testimonial-cards {
@@ -247,7 +268,7 @@ div.row {
   .hero-card {
     width: 60%;
   }
-  .testimonial h1 {
+  h2 {
     padding: 2rem 0;
   }
   .hero h1,
