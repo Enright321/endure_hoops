@@ -21,8 +21,17 @@ const Hero = ({ minHeight, imgSrc }) => {
               personal training session.
             </p>
             <div className='flex'>
-              <button className='btn-1'>Camp Registration</button>
-              <button className='btn-2'>Contact Me</button>
+              <a
+                className='btn-1'
+                href='https://docs.google.com/forms/d/1olwSi6Fj4oi3h7vDLNnDUIpYVjB41cjpllR5xUUh4qk/edit'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Camp Registration
+              </a>
+              <a href='#contact-form' className='btn-2'>
+                Contact Me
+              </a>
             </div>
           </div>
           <div className='vid-player-bg'>

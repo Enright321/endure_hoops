@@ -9,7 +9,7 @@ const About = () => {
         </div>
         <div className='about-text'>
           <p>
-            Welcome to Endure Hoops! Our goal is to train athletes to perform at
+            Welcome to Endure Hoops! My goal is to train athletes to perform at
             a high level. I've held training sessions in my driveway since I was
             a sophomore in highschool. I knew from that point forward I wanted
             to turn this passion into a full time career. I have learned from

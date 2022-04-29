@@ -31,6 +31,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   line-height: 1.5em;
 }
@@ -70,6 +73,10 @@ p {
   border-radius: 5px;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 /* remove animations for people who've turned them off */
 @media (prefers-reduced-motion: reduce) {
   *,
@@ -93,7 +100,7 @@ p {
 .btn-1 {
   padding: 1.5rem 2rem;
   background-color: var(--complementary-clr-1);
-  color: white;
+  color: white !important;
   border: none;
   font-size: 1.1em;
   cursor: pointer;
@@ -101,7 +108,7 @@ p {
 .btn-2 {
   padding: 1.5rem 2rem;
   background-color: var(--complementary-clr-2);
-  color: white;
+  color: white !important;
   border: none;
   font-size: 1.1em;
   cursor: pointer;
@@ -345,21 +352,6 @@ p {
     width: 100%;
   }
 }
-
-/* @media (max-width: 768px) {
-  .testimonial-card-1 {
-    width: 100%;
-    height: 100%;
-  }
-  .testimonial-card-2 {
-    width: 100%;
-    height: 70%;
-    margin-top: 10rem;
-  }
-  .testimonial-card img {
-    display: none;
-  }
-} */
 
 .testimonial .grid-container > *:first-child {
   grid-column: 1;
@@ -608,4 +600,16 @@ footer {
 }
 div.row {
   margin: 0;
+}
+
+/* ---------------------------- */
+/* Contact Form                 */
+/* ---------------------------- */
+
+.contact-form {
+  min-height: 80vh;
+  padding: 2rem 0;
+}
+.contact-form textarea {
+  resize: none;
 }
