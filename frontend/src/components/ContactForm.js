@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import dotenv from 'dotenv';
 import emailjs from 'emailjs-com';
+dotenv.config();
 
 const ContactForm = () => {
   function sendEmail(e) {
