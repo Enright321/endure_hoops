@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import dotenv from 'dotenv';
 import emailjs from 'emailjs-com';
 
 const ContactForm = () => {
@@ -7,7 +8,7 @@ const ContactForm = () => {
 
     emailjs
       .sendForm(
-        'service_cp79mfq',
+        process.env.SERVICE_ID,
         'template_1gk0e94',
         e.target,
         '72DZt9ByekTv-E45Z'
