@@ -25,31 +25,41 @@ const ContactForm = () => {
 
   return (
     <section id='contact-form' class='contact-form'>
-      <div
-        className='container border'
-        style={{ marginTop: '50px', width: '50%' }}
-      >
-        <h2 style={{ marginTop: '25px' }} className='text-center py-3'>
-          Contact
-        </h2>
-        <form
-          onSubmit={sendEmail}
-          className='row'
-          style={{ margin: '25px 85px 75px 100px' }}
-        >
-          <label>Name</label>
-          <input type='text' name='name' className='form-control' />
-          <label>Email</label>
-          <input type='text' name='email' className='form-control' />
-          <label>Message</label>
-          <textarea rows='4' className='form-control' name='message'></textarea>
-          <input
-            type='submit'
-            value='Send'
-            className='form-control btn btn-dark'
-            style={{ marginTop: '30px' }}
-          />
-        </form>
+      <div className='container'>
+        <div className='container' style={{ marginTop: '50px' }}>
+          <h2 style={{ marginTop: '25px' }} className='text-center py-3'>
+            Send Me a Message!
+          </h2>
+          <form onSubmit={sendEmail} className='row'>
+            <label>Name</label>
+            <input
+              type='text'
+              name='name'
+              className='form-control'
+              style={{ marginBottom: '10px' }}
+            />
+            <label>Email</label>
+            <input
+              style={{ marginBottom: '10px' }}
+              type='text'
+              name='email'
+              className='form-control'
+            />
+            <label>Message</label>
+            <textarea
+              rows='4'
+              className='form-control'
+              name='message'
+            ></textarea>
+
+            <input
+              type='submit'
+              value='Send'
+              className='form-control btn'
+              style={{ margin: '30px 0' }}
+            />
+          </form>
+        </div>
       </div>
     </section>
   );

@@ -77,6 +77,12 @@ a {
   text-decoration: none !important;
 }
 
+input,
+textarea {
+  display: block;
+  width: 100%;
+}
+
 /* remove animations for people who've turned them off */
 @media (prefers-reduced-motion: reduce) {
   *,
@@ -338,6 +344,9 @@ a {
     /* margin-top: 2rem; */
     height: 525px;
   }
+  .testimonial h2 {
+    font-size: var(--fs-400);
+  }
 }
 @media (max-width: 450px) {
   .testimonial-card-1 {
@@ -370,7 +379,7 @@ a {
 .testimonial-card img {
   height: 100px;
   width: 100px;
-  border: 3px solid var(--primary-shade-2);
+  border: 4px solid var(--primary-shade-2);
   border-radius: 25%;
 }
 .testimonial h2 {
@@ -443,6 +452,12 @@ a {
   }
   .about p {
     text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .about p {
+    font-size: var(--fs-200);
   }
 }
 
@@ -608,8 +623,37 @@ div.row {
 
 .contact-form {
   min-height: 80vh;
-  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.contact-form > .container {
+  padding: 2rem;
+  background: var(--primary-shade-2);
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.contact-form .btn {
+  background-color: var(--complementary-clr-1);
+  font-size: var(--fs-400);
+  font-weight: 500;
+  width: 150px;
+  color: white;
 }
 .contact-form textarea {
   resize: none;
+}
+.container.border {
+  padding: 0rem;
+}
+form.row {
+  margin: 25px 50px;
+}
+@media (max-width: 400px) {
+  form.row {
+    margin: 25px 5px;
+  }
 }
