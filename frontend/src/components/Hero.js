@@ -23,7 +23,7 @@ const Hero = ({ minHeight, imgSrc }) => {
             <div className='flex'>
               <a
                 className='btn-1'
-                href='https://docs.google.com/forms/d/1olwSi6Fj4oi3h7vDLNnDUIpYVjB41cjpllR5xUUh4qk/edit'
+                href='https://docs.google.com/forms/d/1QcjUPQ45WMbwI0yZgOko_r88yxSZyGz3CU25uIJT9l8/edit'
                 target='_blank'
                 rel='noreferrer'
               >
