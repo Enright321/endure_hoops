@@ -1,5 +1,7 @@
 import React from 'react';
 import VideoPlayer from './VideoPlayer';
+import { LinkContainer } from 'react-router-bootstrap';
+import { Nav } from 'react-bootstrap';
 
 const Hero = ({ minHeight, imgSrc }) => {
   return (
@@ -21,14 +23,10 @@ const Hero = ({ minHeight, imgSrc }) => {
               personal training session.
             </p>
             <div className='flex'>
-              <a
-                className='btn-1'
-                href='https://docs.google.com/forms/d/1QcjUPQ45WMbwI0yZgOko_r88yxSZyGz3CU25uIJT9l8/edit'
-                target='_blank'
-                rel='noreferrer'
-              >
-                Camp Registration
-              </a>
+              <LinkContainer to='/campregistration'>
+                <Nav.Link className='btn-1'>Academy Registration</Nav.Link>
+              </LinkContainer>
+
               <a href='#contact-form' className='btn-2'>
                 Contact Me
               </a>

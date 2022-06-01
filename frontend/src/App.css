@@ -657,3 +657,51 @@ form.row {
     margin: 25px 5px;
   }
 }
+
+/* Camp Registration Screen */
+
+.camp-registration {
+  min-height: 60vh;
+}
+
+.camp-registration > .flex {
+  margin-top: 5rem;
+}
+
+.camp-registration a {
+  text-decoration: none;
+  color: white;
+  /* width: 300px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.camp-registration .flex {
+  justify-content: center;
+  align-items: center;
+}
+
+.campCards {
+  background-color: var(--complementary-clr-2);
+  color: white;
+  padding: 1rem;
+  border-radius: 20px;
+  height: 300px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.campCards h5 {
+  line-height: 2ch;
+}
+@media (max-width: 500px) {
+  .camp-registration > .flex {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .campCards {
+    width: 100%;
+  }
+}
